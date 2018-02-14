@@ -3,6 +3,7 @@ it creates git repository on existing dir. In order to track changes on the file
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+staging area contains files already marked to be tracked , but not yet commited. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
