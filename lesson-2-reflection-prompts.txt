@@ -3,18 +3,32 @@ it creates git repository on existing dir. In order to track changes on the file
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
 staging area contains files already marked to be tracked , but not yet commited. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+I can do git status to see what changes have been done to the files already in staging area
+and change or correct something if needed before commit
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When one needs to add new feature to project and test it it performance separataly before adding it to main branch
+or to fix some bug in the code and then add fix to main code.
+
 How do the diagrams help you visualize the branch structure?
+
+It helps to see the structure of the commits in the branches
+and their relations
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is the merge result of two branches, where included all new lines and deleted or fixed lines from the codes.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Pros are that you don't have to worry about conflicts, but the cons are that in this case you can mess up with your or other's changes,
+so the mannuall merge is much preferable method to get clean code when merging to commits or branches. 
